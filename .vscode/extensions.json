@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "visualstudioexptteam.vscodeintellicode",
+    "alexdima.copy-relative-path",
+    "CoenraadS.bracket-pair-colorizer",
+    "ms-vscode-remote.remote-containers",
+    "eamodio.gitlens",
+    "mhutchie.git-graph",
+  ]
+}

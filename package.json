@@ -1,0 +1,29 @@
+{
+  "name": "3d-map-track",
+  "version": "1.0.0",
+  "description": "Track on a 3D map",
+  "scripts": {
+    "docker_restart": "docker restart grafana",
+    "docker_ps": "docker ps",
+    "build": "grafana-toolkit plugin:build",
+    "test": "grafana-toolkit plugin:test",
+    "dev": "grafana-toolkit plugin:dev",
+    "watch": "grafana-toolkit plugin:dev --watch",
+    "sign": "grafana-toolkit plugin:sign",
+    "start": "yarn watch"
+  },
+  "author": "Thibaut Lassalle",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@grafana/data": "latest",
+    "@grafana/toolkit": "latest",
+    "@grafana/ui": "latest",
+    "emotion": "10.0.27"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "dependencies": {
+    "@openglobus/og": "^0.10.6"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "$schema": "https://raw.githubusercontent.com/grafana/grafana/master/docs/sources/developers/plugins/plugin.schema.json",
+  "type": "panel",
+  "name": "3DMapTrack",
+  "id": "3d-map-panel",
+  "info": {
+    "description": "Track on a 3D map",
+    "keywords": [
+      "3d",
+      "map",
+      "openglobus",
+      "globus",
+      "Cesium",
+      "ArcGis Earth",
+      "Google earth"
+    ],
+    "logos": {
+      "small": "img/logo.svg",
+      "large": "img/logo.svg"
+    },
+    "links": [
+      {
+        "name": "Author",
+        "url": "https://www.linkedin.com/in/tlassalle/"
+      },
+      {
+        "name": "Author github",
+        "url": "https://github.com/tbo47"
+      }
+    ],
+    "screenshots": [],
+    "version": "1.0.0",
+    "updated": "%TODAY%"
+  },
+  "dependencies": {
+    "grafanaDependency": ">=7.0.0",
+    "plugins": []
+  }
+}
