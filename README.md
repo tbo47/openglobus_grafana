@@ -11,12 +11,12 @@ Install docker and nodejs.
 Pull and run the grafana image:
 
 ```bash
-docker pull grafana/grafana:7.2.0
+docker pull grafana/grafana:8.3.3
 ```
 
 Make sure this plugin is in a `grafana-plugins/` folder and go in it (likely `cd ..` from here).
 ```
-cd .. ; docker run -d -p 3000:3000 -v "$(pwd)":/var/lib/grafana/plugins --name=grafana grafana/grafana:7.2.0
+cd .. ; docker run -d -p 3000:3000 -v "$(pwd)":/var/lib/grafana/plugins --name=grafana grafana/grafana:8.3.3
 ```
 
 Delete
